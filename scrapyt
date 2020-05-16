@@ -5,10 +5,8 @@ from unidecode import unidecode
 
 surl = "https://www.youtube.com/results?search_query="
 
-topics = [ "Restaurant Style Chicken Fried Rice","biryani","chinese chicken",
-           "food", "Restaurant Style Biryani", "Restaurant Style Anda Channay","Restaurant Style Dragon Chicken", "Restaurant Style Chicken White Manchurian", "chicken recipe",
-           "anda channay", "cooking", "baking", "frying", "roasting", "boiling", "toasting",
-           "kitchen", "food", "foodie", "eating", "street food", "restraunts"]
+topics = [ "Restaurant", "food", "Restaurant Style Biryani","Restaurant Style Dragon Chicken",
+           "kitchen","foodie", "eating", "street food", "restraunts"]
 
 page = "&page="
 out = open("output.csv", "a+")
